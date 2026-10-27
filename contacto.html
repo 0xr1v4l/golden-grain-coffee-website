@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Contacta con El Grano Áureo y visítanos en Bogotá. Consulta nuestra dirección, horarios y envíanos un mensaje."
+    />
+    <meta name="theme-color" content="#f6f1e8" />
+    <title>Contacto y ubicación | El Grano Áureo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="header">
+      <div class="header-inner container">
+        <a class="brand" href="index.html" aria-label="El Grano Áureo, inicio"
+          >El Grano <span>Áureo</span></a
+        >
+        <nav class="nav" aria-label="Navegación principal">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="index.html">Inicio</a></li>
+            <li><a class="nav-link" href="menu.html">Menú</a></li>
+            <li>
+              <a
+                class="nav-link is-active"
+                href="contacto.html"
+                aria-current="page"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Datos de contacto y formulario en el mismo lugar. -->
+    <main id="contenido" class="contact-page">
+      <header class="page-heading container">
+        <p class="eyebrow">Nos encantará saludarte</p>
+        <h1 class="page-title">Hablemos de café</h1>
+        <p class="page-intro">
+          Escríbenos o pasa por la cafetería. Siempre hay una taza lista para
+          ti.
+        </p>
+      </header>
+      <div class="contact-layout container">
+        <section class="contact-form" aria-labelledby="form-title">
+          <p class="eyebrow">Cuéntanos</p>
+          <h2 class="section-title" id="form-title">Envíanos un mensaje</h2>
+          <form action="#" method="post">
+            <fieldset class="form-fields">
+              <legend class="form-title">Tus datos</legend>
+              <div class="field">
+                <label class="field-label" for="nombre">Nombre</label
+                ><input
+                  class="field-input"
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  autocomplete="name"
+                  placeholder="Tu nombre"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label class="field-label" for="correo"
+                  >Correo electrónico</label
+                ><input
+                  class="field-input"
+                  type="email"
+                  id="correo"
+                  name="correo"
+                  autocomplete="email"
+                  placeholder="tu@correo.com"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label class="field-label" for="asunto">Asunto</label
+                ><input
+                  class="field-input"
+                  type="text"
+                  id="asunto"
+                  name="asunto"
+                  placeholder="¿En qué podemos ayudarte?"
+                />
+              </div>
+              <div class="field">
+                <label class="field-label" for="mensaje">Mensaje</label
+                ><textarea
+                  class="field-input textarea"
+                  id="mensaje"
+                  name="mensaje"
+                  rows="5"
+                  placeholder="Escribe tu mensaje aquí"
+                  required
+                ></textarea>
+              </div>
+              <button class="button" type="submit">
+                Enviar mensaje <span aria-hidden="true">→</span>
+              </button>
+            </fieldset>
+          </form>
+        </section>
+        <section class="contact-info" aria-labelledby="visit-title">
+          <p class="eyebrow">Ven por tu próxima taza</p>
+          <h2 class="section-title" id="visit-title">Dónde encontrarnos</h2>
+          <address class="address">
+            <p>
+              <strong>Dirección</strong><br />Cra. 4 # 12-34<br />Bogotá,
+              Colombia
+            </p>
+            <p>
+              <strong>Horario</strong><br />Lunes a sábado<br />8:00 a. m. –
+              7:00 p. m.
+            </p>
+            <p>
+              <strong>Escríbenos</strong><br /><a
+                href="mailto:hola@elgranoaureo.co"
+                >hola@elgranoaureo.co</a
+              ><br /><a href="tel:+576013456789">+57 (601) 345 6789</a>
+            </p>
+          </address>
+          <div
+            class="map"
+            role="img"
+            aria-label="Mapa de ubicación de El Grano Áureo en Bogotá"
+          >
+            <span class="map-pin" aria-hidden="true">●</span>
+            <p>Cra. 4 # 12-34<br /><small>Bogotá, Colombia</small></p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-main container">
+        <div>
+          <a class="brand" href="index.html">El Grano <span>Áureo</span></a>
+          <p class="footer-tagline">
+            Café de especialidad, servido con cariño.
+          </p>
+        </div>
+        <div class="footer-details">
+          <p>Cra. 4 # 12-34 · Bogotá, Colombia</p>
+          <ul class="social-list" aria-label="Redes sociales">
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                aria-label="Instagram de El Grano Áureo"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                aria-label="Facebook de El Grano Áureo"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <small>© 2026 El Grano Áureo. Todos los derechos reservados.</small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+/* Módulo compartido: botones y enlaces. */
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 6px;
+  background: var(--coffee);
+  color: white;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.button:hover {
+  background: #33251e;
+}
+.button-light {
+  background: var(--paper);
+  color: var(--coffee);
+}
+.button-light:hover {
+  background: var(--cream);
+}
+.button-outline {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+.button-outline:hover {
+  background: white;
+  color: var(--coffee);
+}
+.text-link {
+  color: var(--coffee);
+  font-weight: 700;
+  text-decoration: none;
+}
+.text-link:hover {
+  text-decoration: underline;
+}

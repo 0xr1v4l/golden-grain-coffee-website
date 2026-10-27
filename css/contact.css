@@ -1,0 +1,88 @@
+/* Módulos del formulario y la ubicación. */
+.contact-page {
+  padding-bottom: 28px;
+}
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+.contact-form .section-title,
+.contact-info .section-title {
+  font-size: 2.25rem;
+}
+.form-fields {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.form-title {
+  margin-bottom: 12px;
+  color: var(--coffee);
+  font-weight: 700;
+}
+.field {
+  margin-bottom: 16px;
+}
+.field-label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--coffee);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+.field-input {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 12px;
+  border: 1px solid #d9d1c6;
+  border-radius: 6px;
+  background: white;
+  color: var(--ink);
+}
+.field-input:focus {
+  border-color: var(--coffee-light);
+}
+.textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+.address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  margin-bottom: 20px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-style: normal;
+}
+.address p {
+  margin: 0 0 8px;
+}
+.address strong,
+.address a {
+  color: var(--coffee);
+}
+.map {
+  display: grid;
+  min-height: 230px;
+  place-content: center;
+  border-radius: 10px;
+  background: #e9e4da;
+  color: var(--coffee);
+  text-align: center;
+}
+.map-pin {
+  color: #9c603f;
+  font-size: 2rem;
+}
+.map p {
+  margin: 0;
+  padding: 8px 12px;
+  background: var(--paper);
+  font-weight: 700;
+}
+.map small {
+  color: var(--muted);
+  font-weight: 400;
+}
