@@ -1,4 +1,4 @@
-/* Base: colores, texto y elementos comunes. */
+/* * Base: colores, texto y elementos comunes. */
 :root {
   --coffee: #49352b;
   --coffee-light: #765b48;
@@ -10,14 +10,15 @@
   --serif: "Playfair Display", Georgia, serif;
   --sans: "DM Sans", Arial, sans-serif;
 }
+
 * {
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
-  scrollbar-width: thin;
-  scrollbar-color: #b89a7e transparent;
 }
+
 body {
   min-width: 320px;
   margin: 0;
@@ -25,18 +26,28 @@ body {
   color: var(--ink);
   font: 16px/1.7 var(--sans);
 }
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--coffee);
+}
+
 img {
   display: block;
   max-width: 100%;
 }
+
 a {
   color: inherit;
 }
+
 button,
 input,
 textarea {
   font: inherit;
 }
+
 h1,
 h2,
 h3,
@@ -44,6 +55,7 @@ p,
 figure {
   margin-top: 0;
 }
+
 h1,
 h2,
 h3 {
@@ -51,10 +63,12 @@ h3 {
   font-family: var(--serif);
   line-height: 1.15;
 }
+
 .container {
   width: min(1120px, calc(100% - 40px));
   margin-inline: auto;
 }
+
 .eyebrow {
   margin-bottom: 10px;
   color: var(--coffee-light);
@@ -63,37 +77,13 @@ h3 {
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
 .section-title {
   margin-bottom: 20px;
   font-size: clamp(2rem, 4vw, 2.8rem);
 }
-/* .skip-link {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  z-index: 5;
-  padding: 10px 14px;
-  transform: translateY(-150%);
-  background: var(--paper);
-}
-.skip-link:focus {
-  transform: translateY(0);
-} */
-a:focus,
-button:focus,
-input:focus,
-textarea:focus {
-  outline: 2px solid var(--gold);
-  outline-offset: 2px;
-}
+
 ::selection {
-  background: var(--gold);
-  color: var(--coffee);
-}
-::-webkit-scrollbar {
-  width: 5px;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #b89a7e;
+  background: var(--coffee);
+  color: var(--paper);
 }

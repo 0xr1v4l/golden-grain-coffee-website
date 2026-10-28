@@ -1,4 +1,4 @@
-/* Ajustes para tabletas y móviles. */
+/* * Ajustes para tabletas y móviles. */
 @media (max-width: 760px) {
   .essence,
   .contact-layout {
@@ -8,17 +8,21 @@
     gap: 32px;
     padding-block: 58px;
   }
+
   .essence-image {
     height: 340px;
   }
+
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (max-width: 520px) {
   .container {
     width: calc(100% - 32px);
   }
+
   .header-inner {
     min-height: 72px;
     flex-direction: column;
@@ -26,29 +30,37 @@
     gap: 0;
     padding-block: 8px;
   }
+
   .brand {
     font-size: 1.25rem;
   }
+
   .nav-list {
     gap: 24px;
   }
+
   .nav-link {
     font-size: 0.82rem;
   }
+
   .hero-content {
-    padding-block: 130px 60px;
+    padding-block: 0;
   }
+
   .hero-caption {
     right: 16px;
     font-size: 0.65rem;
   }
+
   .product-grid,
   .address {
     grid-template-columns: 1fr;
   }
+
   .page-heading {
     padding-block: 52px 32px;
   }
+
   .visit-inner,
   .footer-main {
     align-items: flex-start;
@@ -57,13 +69,16 @@
   .visit-inner p {
     font-size: 1.5rem;
   }
+
   .footer-details {
     text-align: left;
   }
+
   .social-list {
     justify-content: flex-start;
   }
 }
+
 @media (prefers-reduced-motion: reduce) {
   .hero-scroll {
     animation: none;

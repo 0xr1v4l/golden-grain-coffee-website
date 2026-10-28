@@ -1,4 +1,4 @@
-/* Módulos de inicio: hero, esencia e invitación. */
+/* * Módulos de inicio: hero, esencia e invitación. */
 .hero {
   position: relative;
   display: flex;
@@ -11,23 +11,28 @@
       center/cover;
   color: white;
 }
+
 .hero-content {
   padding-block: 150px 80px;
 }
+
 .hero-eyebrow {
   color: #e8c98c;
 }
+
 .hero-title {
   max-width: 700px;
   margin-bottom: 18px;
   color: white;
   font-size: clamp(3rem, 7vw, 5.5rem);
 }
+
 .hero-text {
   max-width: 500px;
   margin-bottom: 28px;
   color: #ffffffdf;
 }
+
 .hero-caption {
   position: absolute;
   right: 24px;
@@ -35,6 +40,7 @@
   color: white;
   font-size: 0.75rem;
 }
+
 .hero-scroll {
   position: absolute;
   bottom: 22px;
@@ -50,11 +56,13 @@
   text-decoration: none;
   animation: hint 1.8s ease-in-out infinite;
 }
+
 @keyframes hint {
   50% {
     transform: translate(-50%, 7px);
   }
 }
+
 .essence {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -62,15 +70,18 @@
   gap: 60px;
   padding-block: 88px;
 }
+
 .essence-image-wrap {
   position: relative;
 }
+
 .essence-image {
   width: 100%;
   height: 430px;
   border-radius: 10px;
   object-fit: cover;
 }
+
 .image-note {
   position: absolute;
   right: 14px;
@@ -80,17 +91,20 @@
   color: var(--coffee);
   font: italic 0.9rem var(--serif);
 }
+
 .essence-content p {
   color: var(--muted);
 }
 .essence-content .eyebrow {
   color: var(--coffee-light);
 }
+
 .visit-band {
   padding-block: 32px;
   background: var(--coffee);
   color: white;
 }
+
 .visit-inner {
   display: flex;
   align-items: center;

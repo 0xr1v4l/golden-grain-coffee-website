@@ -1,7 +1,8 @@
-/* Layout: header y footer compartidos. */
+/* * Layout: header y footer compartidos. */
 .header {
   background: var(--paper);
 }
+
 .header-inner {
   display: flex;
   min-height: 76px;
@@ -9,6 +10,7 @@
   justify-content: space-between;
   gap: 24px;
 }
+
 .brand {
   color: var(--coffee);
   font: 700 1.45rem var(--serif);
@@ -17,6 +19,7 @@
 .brand span {
   color: var(--gold);
 }
+
 .nav-list,
 .social-list {
   display: flex;
@@ -25,6 +28,7 @@
   padding: 0;
   list-style: none;
 }
+
 .nav-link {
   color: var(--muted);
   font-size: 0.9rem;
@@ -38,6 +42,7 @@
 .nav-link.is-active {
   border-bottom: 2px solid var(--gold);
 }
+
 .home .header {
   position: absolute;
   z-index: 2;
@@ -46,18 +51,21 @@
 }
 .home .header .brand,
 .home .header .nav-link {
-  color: white;
+  color: #ffffff;
 }
+
 .footer {
   margin-top: 40px;
   background: var(--cream);
 }
+
 .footer-main {
   display: flex;
   justify-content: space-between;
   gap: 24px;
   padding-block: 38px;
 }
+
 .footer-tagline,
 .footer-details p {
   margin: 6px 0 0;
@@ -67,6 +75,7 @@
 .footer-details {
   text-align: right;
 }
+
 .social-list {
   justify-content: flex-end;
   margin-top: 8px;
@@ -76,6 +85,7 @@
   font-size: 0.85rem;
   text-decoration: none;
 }
+
 .footer-bottom {
   padding-block: 12px;
   border-top: 1px solid #e3dacd;

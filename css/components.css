@@ -1,4 +1,4 @@
-/* Módulo compartido: botones y enlaces. */
+/* * Módulo compartido: botones y enlaces. */
 .button {
   display: inline-block;
   padding: 12px 20px;
@@ -12,6 +12,7 @@
 .button:hover {
   background: #33251e;
 }
+
 .button-light {
   background: var(--paper);
   color: var(--coffee);
@@ -19,6 +20,7 @@
 .button-light:hover {
   background: var(--cream);
 }
+
 .button-outline {
   border: 1px solid white;
   background: transparent;
@@ -28,6 +30,7 @@
   background: white;
   color: var(--coffee);
 }
+
 .text-link {
   color: var(--coffee);
   font-weight: 700;
