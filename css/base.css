@@ -67,7 +67,7 @@ h3 {
   margin-bottom: 20px;
   font-size: clamp(2rem, 4vw, 2.8rem);
 }
-.skip-link {
+/* .skip-link {
   position: absolute;
   top: 8px;
   left: 8px;
@@ -78,7 +78,7 @@ h3 {
 }
 .skip-link:focus {
   transform: translateY(0);
-}
+} */
 a:focus,
 button:focus,
 input:focus,

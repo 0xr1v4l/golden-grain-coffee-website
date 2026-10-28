@@ -9,6 +9,7 @@
     />
     <meta name="theme-color" content="#f6f1e8" />
     <title>El Grano Áureo | Café de especialidad</title>
+    <!-- * Acelera la conexión con los servidores de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,12 +19,12 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="home">
-    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <!-- * Encabezado principal del sitio -->
     <header class="header">
       <div class="header-inner container">
-        <a class="brand" href="index.html" aria-label="El Grano Áureo, inicio"
-          >El Grano <span>Áureo</span></a
-        >
+        <a class="brand" href="index.html" aria-label="El Grano Áureo, inicio">
+          El Grano <span>Áureo</span>
+        </a>
         <nav class="nav" aria-label="Navegación principal">
           <ul class="nav-list">
             <li>
@@ -31,8 +32,9 @@
                 class="nav-link is-active"
                 href="index.html"
                 aria-current="page"
-                >Inicio</a
               >
+                Inicio
+              </a>
             </li>
             <li><a class="nav-link" href="menu.html">Menú</a></li>
             <li><a class="nav-link" href="contacto.html">Contacto</a></li>
@@ -40,9 +42,9 @@
         </nav>
       </div>
     </header>
-
-    <!-- Aquí empieza la página; cada sección cuenta una parte de la historia. -->
+    <!-- * Contenido principal del sitio -->
     <main id="contenido">
+      <!-- * Sección hero -->
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-content container">
           <p class="eyebrow hero-eyebrow">Café de origen · Hecho con calma</p>
@@ -53,20 +55,25 @@
             Cada taza cuenta una historia de origen, cuidado y buenos momentos.
             La tuya empieza aquí.
           </p>
-          <a class="button button-light" href="menu.html"
-            >Descubre nuestro menú <span aria-hidden="true">↗</span></a
-          >
+          <a class="button button-light" href="menu.html">
+            Descubre nuestro menú <span aria-hidden="true">↗</span>
+          </a>
         </div>
         <span class="hero-caption">Un buen café cambia el ritmo del día.</span>
         <a
           class="hero-scroll"
-          href="#essence-title"
+          href="#essence"
           aria-label="Bajar a Nuestra esencia"
-          ><span aria-hidden="true">↓</span></a
         >
+          <span aria-hidden="true">↓</span>
+        </a>
       </section>
-
-      <section class="essence container" aria-labelledby="essence-title">
+      <!-- * Sección de nuestra esencia -->
+      <section
+        class="essence container"
+        id="essence"
+        aria-labelledby="essence-title"
+      >
         <div class="essence-image-wrap">
           <img
             class="essence-image"
@@ -92,12 +99,12 @@
             compartirlo. Así nace El Grano Áureo: un lugar para hacer una pausa
             y disfrutar lo extraordinario de lo cotidiano.
           </p>
-          <a class="text-link" href="contacto.html"
-            >Ven a conocernos <span aria-hidden="true">→</span></a
-          >
+          <a class="text-link" href="contacto.html">
+            Ven a conocernos <span aria-hidden="true">→</span>
+          </a>
         </div>
       </section>
-
+      <!-- * Sección de invitación a visitarnos -->
       <section class="visit-band" aria-label="Invitación a visitarnos">
         <div class="container visit-inner">
           <p>Tu próxima pausa tiene aroma a café.</p>
@@ -105,7 +112,7 @@
         </div>
       </section>
     </main>
-
+    <!-- * Pie de página -->
     <footer class="footer">
       <div class="footer-main container">
         <div>
@@ -121,15 +128,19 @@
               <a
                 href="https://www.instagram.com/"
                 aria-label="Instagram de El Grano Áureo"
-                >Instagram</a
+                target="_blank"
               >
+                Instagram
+              </a>
             </li>
             <li>
               <a
                 href="https://www.facebook.com/"
                 aria-label="Facebook de El Grano Áureo"
-                >Facebook</a
+                target="_blank"
               >
+                Facebook
+              </a>
             </li>
           </ul>
         </div>

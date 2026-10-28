@@ -9,6 +9,7 @@
     />
     <meta name="theme-color" content="#f6f1e8" />
     <title>Contacto y ubicación | El Grano Áureo</title>
+    <!-- * Acelera la conexión con los servidores de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,12 +19,12 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <!-- * Encabezado principal del sitio -->
     <header class="header">
       <div class="header-inner container">
-        <a class="brand" href="index.html" aria-label="El Grano Áureo, inicio"
-          >El Grano <span>Áureo</span></a
-        >
+        <a class="brand" href="index.html" aria-label="El Grano Áureo, inicio">
+          El Grano <span>Áureo</span>
+        </a>
         <nav class="nav" aria-label="Navegación principal">
           <ul class="nav-list">
             <li><a class="nav-link" href="index.html">Inicio</a></li>
@@ -33,14 +34,15 @@
                 class="nav-link is-active"
                 href="contacto.html"
                 aria-current="page"
-                >Contacto</a
               >
+                Contacto
+              </a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <!-- Datos de contacto y formulario en el mismo lugar. -->
+    <!-- * Contenido principal del sitio -->
     <main id="contenido" class="contact-page">
       <header class="page-heading container">
         <p class="eyebrow">Nos encantará saludarte</p>
@@ -50,7 +52,9 @@
           ti.
         </p>
       </header>
+      <!-- * Diseño de la página de contacto -->
       <div class="contact-layout container">
+        <!-- * Formulario de contacto -->
         <section class="contact-form" aria-labelledby="form-title">
           <p class="eyebrow">Cuéntanos</p>
           <h2 class="section-title" id="form-title">Envíanos un mensaje</h2>
@@ -58,8 +62,8 @@
             <fieldset class="form-fields">
               <legend class="form-title">Tus datos</legend>
               <div class="field">
-                <label class="field-label" for="nombre">Nombre</label
-                ><input
+                <label class="field-label" for="nombre">Nombre</label>
+                <input
                   class="field-input"
                   type="text"
                   id="nombre"
@@ -70,9 +74,10 @@
                 />
               </div>
               <div class="field">
-                <label class="field-label" for="correo"
-                  >Correo electrónico</label
-                ><input
+                <label class="field-label" for="correo">
+                  Correo electrónico
+                </label>
+                <input
                   class="field-input"
                   type="email"
                   id="correo"
@@ -83,8 +88,8 @@
                 />
               </div>
               <div class="field">
-                <label class="field-label" for="asunto">Asunto</label
-                ><input
+                <label class="field-label" for="asunto">Asunto</label>
+                <input
                   class="field-input"
                   type="text"
                   id="asunto"
@@ -93,8 +98,8 @@
                 />
               </div>
               <div class="field">
-                <label class="field-label" for="mensaje">Mensaje</label
-                ><textarea
+                <label class="field-label" for="mensaje">Mensaje</label>
+                <textarea
                   class="field-input textarea"
                   id="mensaje"
                   name="mensaje"
@@ -109,9 +114,11 @@
             </fieldset>
           </form>
         </section>
+        <!-- * Información de contacto -->
         <section class="contact-info" aria-labelledby="visit-title">
           <p class="eyebrow">Ven por tu próxima taza</p>
           <h2 class="section-title" id="visit-title">Dónde encontrarnos</h2>
+          <!-- * Dirección -->
           <address class="address">
             <p>
               <strong>Dirección</strong><br />Cra. 4 # 12-34<br />Bogotá,
@@ -122,10 +129,10 @@
               7:00 p. m.
             </p>
             <p>
-              <strong>Escríbenos</strong><br /><a
-                href="mailto:hola@elgranoaureo.co"
-                >hola@elgranoaureo.co</a
-              ><br /><a href="tel:+576013456789">+57 (601) 345 6789</a>
+              <strong>Escríbenos</strong><br />
+              <a href="mailto:hola@elgranoaureo.co">hola@elgranoaureo.co</a>
+              <br />
+              <a href="tel:+576013456789">+57 (313) 345 6789</a>
             </p>
           </address>
           <div
@@ -139,6 +146,7 @@
         </section>
       </div>
     </main>
+    <!-- * Pie de página -->
     <footer class="footer">
       <div class="footer-main container">
         <div>
@@ -154,15 +162,19 @@
               <a
                 href="https://www.instagram.com/"
                 aria-label="Instagram de El Grano Áureo"
-                >Instagram</a
+                target="_blank"
               >
+                Instagram
+              </a>
             </li>
             <li>
               <a
                 href="https://www.facebook.com/"
                 aria-label="Facebook de El Grano Áureo"
-                >Facebook</a
+                target="_blank"
               >
+                Facebook
+              </a>
             </li>
           </ul>
         </div>

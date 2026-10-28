@@ -9,6 +9,7 @@
     />
     <meta name="theme-color" content="#f6f1e8" />
     <title>Menú | El Grano Áureo</title>
+    <!-- * Acelera la conexión con los servidores de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,28 +19,32 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <!-- * Encabezado principal del sitio -->
     <header class="header">
       <div class="header-inner container">
-        <a class="brand" href="index.html" aria-label="El Grano Áureo, inicio"
-          >El Grano <span>Áureo</span></a
-        >
+        <a class="brand" href="index.html" aria-label="El Grano Áureo, inicio">
+          El Grano <span>Áureo</span>
+        </a>
         <nav class="nav" aria-label="Navegación principal">
           <ul class="nav-list">
             <li><a class="nav-link" href="index.html">Inicio</a></li>
             <li>
-              <a class="nav-link is-active" href="menu.html" aria-current="page"
-                >Menú</a
+              <a
+                class="nav-link is-active"
+                href="menu.html"
+                aria-current="page"
               >
+                Menú
+              </a>
             </li>
             <li><a class="nav-link" href="contacto.html">Contacto</a></li>
           </ul>
         </nav>
       </div>
     </header>
-
-    <!-- Menú organizado por tipo para encontrar algo rico sin complicaciones. -->
+    <!-- * Contenido principal del sitio -->
     <main id="contenido" class="menu-page">
+      <!-- * Encabezado del menú -->
       <header class="page-heading container">
         <p class="eyebrow">Preparado al momento</p>
         <h1 class="page-title">Un menú para saborear</h1>
@@ -48,11 +53,13 @@
           pausas.
         </p>
       </header>
+      <!-- * Sección de bebidas calientes -->
       <section class="menu-section container" aria-labelledby="drinks-title">
         <div class="menu-heading">
           <p class="eyebrow">De la barra</p>
           <h2 class="section-title" id="drinks-title">Bebidas Calientes</h2>
         </div>
+        <!-- * Grid de productos -->
         <div class="product-grid">
           <article class="product-card">
             <figure class="product-figure">
@@ -113,11 +120,13 @@
           </article>
         </div>
       </section>
+      <!-- * Sección de panadería -->
       <section class="menu-section container" aria-labelledby="bakery-title">
         <div class="menu-heading">
           <p class="eyebrow">Recién salido del horno</p>
           <h2 class="section-title" id="bakery-title">Panadería Artesanal</h2>
         </div>
+        <!-- * Grid de productos -->
         <div class="product-grid">
           <article class="product-card">
             <figure class="product-figure">
@@ -179,7 +188,7 @@
         </div>
       </section>
     </main>
-
+    <!-- * Pie de página -->
     <footer class="footer">
       <div class="footer-main container">
         <div>
@@ -195,15 +204,19 @@
               <a
                 href="https://www.instagram.com/"
                 aria-label="Instagram de El Grano Áureo"
-                >Instagram</a
+                target="_blank"
               >
+                Instagram
+              </a>
             </li>
             <li>
               <a
                 href="https://www.facebook.com/"
                 aria-label="Facebook de El Grano Áureo"
-                >Facebook</a
+                target="_blank"
               >
+                Facebook
+              </a>
             </li>
           </ul>
         </div>
